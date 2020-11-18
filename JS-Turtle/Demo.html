@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <canvas id="mycanvas" height ="800" width = "1100">
+</body>
+<script src="turtle.js"></script>
+<script src="hsv.js"></script>
+<script>
+  var p = new Turtle(document.getElementById("mycanvas"));
+  p.moveto(300, 650);
+  p.penDown = true;
+
+function Square(size){
+  for(var i = 0; i < 4; i+=1){
+    p.forward(size);
+    p.right(90);
+  }
+}
+
+function Circle(size){
+  
+  for(var i = 0; i < 36; i++){
+    p.right(10);
+    p.forward(5);
+    
+  }
+}   
+   
+  
+
+  p.right(180);
+  p.forward(300);
+
+  
+
+  
+  
+  p.forward(300);
+  p.right(90);
+  p.forward(300);
+
+  
+
+  p.forward(300);
+  p.right(90);
+  p.forward(300);
+
+  
+  
+  p.forward(300);
+  p.right(90);
+  p.forward(300);
+
+  
+
+  p.forward(300);
+
+  p.penDown = false;
+
+  p.right(135);
+  p.forward(212);
+
+  p.penDown = true;
+  p.left(90)
+  Circle();
+  p.right(90)
+  p.penDown = false;
+
+  p.left(180);
+  p.forward(212);
+  p.right(135);
+  p.forward(600);
+  p.right(135);
+  p.forward(212);
+
+  p.penDown = true;
+  p.left(90)
+  Circle();
+  p.right(90)
+  p.penDown = false;
+
+  p.left(180);
+  p.forward(212);
+  p.right(135);
+  p.forward(600);
+  p.right(135);
+  p.forward(212);
+
+  p.penDown = true;
+  p.left(90)
+  Circle()
+  p.right(90)
+  p.penDown = false;
+
+  p.left(180);
+  p.forward(212);
+  p.right(135);
+  p.forward(600);
+  p.right(135);
+  p.forward(212);
+
+  p.penDown = true;
+  p.left(90)
+  Circle()
+  p.left(90)
+</script>
+</html>
