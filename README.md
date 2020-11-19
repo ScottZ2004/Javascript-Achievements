@@ -14,6 +14,6 @@ In het het bestand  [index.html](index.html) houd je een overzicht bij van wat j
 **Dit overzicht zet je op je eigen Ma Cloud website en houd je up-to-date!**
 
 Plaats in deze readme een link naar het index bestand op je ma-cloud site.  
-[link](http://31658.hosts1.ma-cloud.nl/JavaScript%20les%201/index.html)
+[link](http://31658.hosts1.ma-cloud.nl/main.html)
 
 
