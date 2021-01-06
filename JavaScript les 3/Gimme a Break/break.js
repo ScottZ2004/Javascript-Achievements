@@ -3,7 +3,7 @@ i = document.getElementById("break_img")//verwijzing naar je <img id='break_img'
 p = document.getElementById("clock")//verwijzing naar je <p id='clock'>
 
 breakStart = new Date('December 9, 2020 11:37:00')
-breakEnd = new Date('December 9, 2020 11:137:20')
+breakEnd = new Date('December 9, 2020 11:37:20')
 //stel de begin en eindtijd van je break hier in
 
 e = setInterval(updateTime, 1000) //code zorgt dat de update time functie elke seconde wordt uitgevoerd
@@ -17,7 +17,7 @@ function updateTime(){
         breakNow()
     }
          
-    if(d.getHours() == breakStart.getHours() && d.getMinutes() == breakEnd.getMinutes() && d.getSeconds() == breakEnd.getSeconds()){
+    if(d.getHours() == breakEnd.getHours() && d.getMinutes() == breakEnd.getMinutes() && d.getSeconds() == breakEnd.getSeconds()){
         endBreak()
     }
 
